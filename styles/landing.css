@@ -89,10 +89,9 @@ color : #DC4A26
     font-weight:400 ;
 }
 
-.main-tag-container ,.main-content-container
-{
-    width: 50%;
-}
+
+
+
 
 
 
@@ -113,10 +112,6 @@ color : #DC4A26
 }
 
 
-.main-tag-container ,.main-content-container
-{
-    width: 50%;
-}
 
 
 }
@@ -135,11 +130,6 @@ color : #DC4A26
     height: 100%;
 }
 
-
-.main-tag-container ,.main-content-container
-{
-    width: 60%;
-}
 
 
 
