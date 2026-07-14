@@ -90,7 +90,7 @@ color : #DC4A26
 }
 
 
-.homes-titel ,.benefits-titel,.features-titel
+.homes-titel ,.benefits-titel,.features-titel,.residents-say-title
 {
     font-size: 30px;
     font-weight: 400;
@@ -126,7 +126,10 @@ background-color: #CAD5BF;
     background-color: #FBEBD2;
 }
 
-
+.text-resident
+{
+    color: rgb(170, 170, 170);
+}
 
 @media  (min-width:992px){
 .fe-card-image
