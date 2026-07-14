@@ -1,6 +1,46 @@
 body
 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Open Sans', sans-serif;
 
 }
 
+.contactNav-container
+{
+    background-color: #FCBA64;
+}
+
+.contact-info-title
+{
+color :#505050;
+font-weight: bold;
+
+}
+.contact-info-text
+{
+color:#404040;
+font-size: 14px;
+
+}
+
+.contact-si
+{
+        width: 26px;
+
+}
+
+.nav-item
+{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav-item
+{
+    transition: 1s ease;
+}
+
+.nav-item:hover
+{
+color : #DC4A26
+}
