@@ -137,6 +137,22 @@ background-color: #CAD5BF;
     background-color: #FCBA64;
 }
 
+.list-item
+{
+    color: #7EA170;
+    transition: 0.5s ease;
+}
+
+.list-item:hover
+{
+    color: white;
+}
+
+
+
+
+
+
 @media  (min-width:992px){
 .fe-card-image
 {
