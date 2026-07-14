@@ -131,6 +131,12 @@ background-color: #CAD5BF;
     color: rgb(170, 170, 170);
 }
 
+
+.ending-footer
+{
+    background-color: #FCBA64;
+}
+
 @media  (min-width:992px){
 .fe-card-image
 {
@@ -171,6 +177,12 @@ background-color: #CAD5BF;
     {
         width: 100%;
         height: 100%;
+    }
+
+    
+    .ending-footer-content p
+    {
+        font-size: 15px;
     }
 
 
