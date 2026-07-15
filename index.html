@@ -27,7 +27,7 @@
     <!-- contact navbar -->
     <div class="container-fluid contactNav-container d-none d-md-flex">
         <div class="container py-2">
-            <div class="d-flex flex-wrap justify-content-center align-items-center">
+            <div class="d-flex  justify-content-center align-items-center flex-wrap">
                 
                 <!-- email -->
                 <div class="d-flex justify-content-center align-items-center gap-2">
@@ -90,14 +90,13 @@
     <!-- main nav -->
     <div class="container-fluid  sticky-top bg-light" >
     <div class="container main-nav ">
-        <div class="row">
+        <div class="d-lg-flex align-items-center ">
+            
             <!-- nav left -->
-            <div class="col-6 col-md-2">
-                <img src="./asserts/images/svg/vedaanta-new-logo.svg" alt="Vedaanta Senior Living Logo" class="py-2">
-            </div>
+            <img src="./asserts/images/svg/vedaanta-new-logo.svg" alt="Vedaanta Senior Living Logo" class="py-2 px-2 pe-4" style="width: 200px;">
             
             <!-- nav right -->
-            <div class="col-6 col-md-10 d-flex justify-content-end">
+            <div class="offset-1">
                 <!-- nav bar -->
                 <nav class = " navbar navbar-expand-md  navbar-expand-lg">
 
@@ -107,8 +106,8 @@
                     </button>
 
                     <!-- menu -->
-                    <div class="collapse navbar-collapse " id="navMenu">
-                        <ul class="navItems mb-2 d-md-flex d-lg-flex flex-wrap justify-content-md-center gap-4">
+                    <div class="collapse navbar-collapse" id="navMenu">
+                        <ul class="navItems navbar-nav justify-content-end gap-3 flex-wrap ">
                             <!-- home -->
                             <li class="nav-item pe-2"> HOME </li>
 
@@ -116,10 +115,32 @@
                             <li class="nav-item pe-2"> ABOUT US </li>
 
                             <!--  LIFE AT VEDAANTA-->
-                            <li class="nav-item pe-2">LIFE AT VEDAANTA</li>
+                            <li class="nav-item pe-2 position-relative vedaanta-main">
+                                LIFE AT VEDAANTA
+                                <ul class="position-absolute bg-light p-3 border vedaanta-menu ">
+                                    <li class="mb-2 mt-2">SERVICES</li>
+                                    <hr>
+                                    <li class="mb-2">TECHNOLOGY</li>
+                                </ul>
+                            </li>
 
                             <!-- LOCATIONS -->
-                            <li class="nav-item pe-2 " id="nav-item-active">LOCATIONS</li>
+                            <li class="nav-item pe-2 locations-main" id="nav-item-active">
+                                LOCATIONS
+                                <ul class="position-absolute bg-light p-4 border locations-menu ">
+                                    <li class="mb-2 mt-2">COIMBATOR</li>
+                                    <hr>
+                                    <li class="mb-2">BANGALORE</li>
+                                    <hr>
+                                    <li class="mb-2">HOSUR</li>
+                                    <hr>
+                                    <li class="mb-2">KERALA</li>
+                                    <hr>
+                                    <li class="mb-2">CHENNAI</li>
+                                    <hr>
+                                    <li class="mb-2">UPCOMING ....</li>
+                                </ul>
+                            </li>
 
                             <!-- VEDAANTA VANTAGE -->
                             <li class="nav-item pe-2"> VEDAANTA VANTAGE </li>
@@ -132,11 +153,6 @@
                                 <button class="bg-success text-light border-0 rounded"> CONTACT US </button>    </li>
                         </ul>
                     </div>
- 
- 
- 
- 
- 
                 </nav> 
             </div>
 
@@ -769,6 +785,7 @@
 
                 <!-- col-1 contact info -->
                 <div class="col-12 col-lg-3 text-light">
+                    <img src="./asserts/images/svg/vedaanta-new-logo.svg" alt="logo" style=" width: 180px;" class="py-3 m-0">
                     <p>
                         Retirement Communities<br>
                         and Senior Living Care

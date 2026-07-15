@@ -108,7 +108,7 @@ $(document).ready(function(){
     // Show/Hide the icon
     window.addEventListener("scroll", function () {
 
-        if (window.scrollY > 700) {
+        if (window.scrollY > 350) {
             topIcon.style.display = "block";
         } else {
             topIcon.style.display = "none";
