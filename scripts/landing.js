@@ -130,7 +130,7 @@ $(document).ready(function(){
 
 
 
-    $(document).ready(function () {
+    
 
         $("#Form").validate({
 
@@ -203,8 +203,7 @@ $(document).ready(function(){
                 form.submit();
             }
 
+      
         });
-
-});
     
 })
