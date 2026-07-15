@@ -147,12 +147,22 @@ color : #DC4A26
     background-color: #7EA170;
     text-transform: capitalize;
 }
-
-.slick-prev:before, 
-.slick-next:before {
-    color: #7EA170 !important; 
+.slick-prev,
+.slick-next{
+    width: 30px !important;
+    height: 30px !important;
+    background: #7EA170 !important;
+    border-radius: 0 !important;      /* Square */
+    z-index: 10 !important;
+    color: #7EA170 !important;
 }
 
+.slick-prev:before,
+.slick-next:before{
+    color: #f7fbf6 !important;
+    font-size: 22px;
+    border-radius: 0 !important; 
+}
 
 .benefits-container{
 background-color: #CAD5BF;
