@@ -100,5 +100,32 @@ $(document).ready(function(){
             }
         ]
     })
+
+
+
+    const topIcon = document.getElementById("top-icon");
+
+    // Show/Hide the icon
+    window.addEventListener("scroll", function () {
+
+        if (window.scrollY > 700) {
+            topIcon.style.display = "block";
+        } else {
+            topIcon.style.display = "none";
+        }
+
+    });
+
+    // Scroll to the top when clicked
+    topIcon.addEventListener("click", function (e) {
+
+        e.preventDefault();
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+
+    });
     
 })
