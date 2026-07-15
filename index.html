@@ -727,64 +727,76 @@
                             </div>
 
                             <!-- Form -->
-                            <form class="p-4">
+                            <form id="Form" class="p-4">
 
-                                <div class="form-content">
+                                <div class="mb-4">
+                                    <label class="form-label">
+                                        Full Name <span class="text-danger">*</span>
+                                    </label>
+                                    <input type="text"
+                                        class="form-control"
+                                        id="name"
+                                        name="name">
+                                </div>
 
-                                    <div class="mb-4">
-                                        <label class="form-label">
-                                            Full Name <span class="text-danger">*</span>
-                                        </label>
-                                        <input type="text" class="form-control">
-                                    </div>
+                                <div class="mb-4">
+                                    <label class="form-label">
+                                        Phone <span class="text-danger">*</span>
+                                    </label>
+                                    <input type="tel"
+                                        class="form-control"
+                                        id="phone"
+                                        name="phone">
+                                </div>
 
-                                    <div class="mb-4">
-                                        <label class="form-label">
-                                            Phone <span class="text-danger">*</span>
-                                        </label>
-                                        <input type="tel" class="form-control">
-                                    </div>
+                                <div class="mb-4">
+                                    <label class="form-label">
+                                        Email <span class="text-danger">*</span>
+                                    </label>
+                                    <input type="email"
+                                        class="form-control"
+                                        id="email"
+                                        name="email">
+                                </div>
 
-                                    <div class="mb-4">
-                                        <label class="form-label">
-                                            Email <span class="text-danger">*</span>
-                                        </label>
-                                        <input type="email" class="form-control">
-                                    </div>
+                                <div class="mb-4">
+                                    <label class="form-label">
+                                        Interested in <span class="text-danger">*</span>
+                                    </label>
 
-                                    <div class="mb-4">
-                                        <label class="form-label">
-                                            Interested in
-                                            <span class="text-danger">*</span>
-                                        </label>
+                                    <select class="form-select"
+                                            id="interest"
+                                            name="interest">
+                                        <option value="">Select a Location</option>
+                                        <option value="Eden - Kottayam">Eden - Kottayam</option>
+                                        <option value="Lotus - Guruvayoor">Lotus - Guruvayoor</option>
+                                        <option value="Premam - Coimbatore">Premam - Coimbatore</option>
+                                        <option value="Vistara - Coimbatore">Vistara - Coimbatore</option>
+                                    </select>
+                                </div>
 
-                                        <select class="form-select">
-                                            <option>Eden - Kottayam</option>
-                                            <option>Lotus - Guruvayoor</option>
-                                            <option>Premam - Coimbatore</option>
-                                            <option>Vistara - Coimbatore</option>
-                                        </select>
-                                    </div>
+                                <div class="mb-4">
+                                    <label class="form-label">Message</label>
+                                    <textarea rows="4"
+                                            class="form-control"
+                                            id="message"
+                                            name="message"></textarea>
+                                </div>
 
-                                    <div class="mb-4">
-                                        <label class="form-label">Message</label>
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input"
+                                        type="checkbox"
+                                        id="agree"
+                                        name="terms">
 
-                                        <textarea rows="4" class="form-control"></textarea>
-                                    </div>
-
-                                    <div class="form-check mb-4">
-                                        <input class="form-check-input" type="checkbox" id="agree">
-
-                                        <label class="form-check-label" for="agree">
-                                            By submitting this form, I agree to share my details for further communication.
-                                            <span class="text-danger">*</span>
-                                        </label>
-                                    </div>
-
+                                    <label class="form-check-label" for="agree">
+                                        By submitting this form, I agree to share my details for further communication.
+                                        <span class="text-danger">*</span>
+                                    </label>
                                 </div>
 
                                 <div class="text-center">
-                                    <button class="btn btn-primary px-4">
+                                    <button type="submit" class="btn btn-primary px-4">
                                         Submit
                                     </button>
                                 </div>
@@ -913,6 +925,10 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
+    <!-- valiadte  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.21.0/dist/jquery.validate.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.21.0/dist/additional-methods.min.js"></script>
     <!-- Slick JS -->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 

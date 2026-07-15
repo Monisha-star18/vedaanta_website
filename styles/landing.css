@@ -274,6 +274,22 @@ background-color: #CAD5BF;
 
 
 
+label.error{
+    color:#dc3545;
+    font-size:14px;
+    margin-top:5px;
+    display:block;
+}
+
+.form-control.error,
+.form-select.error{
+    border-color:#dc3545;
+}
+
+.form-control.valid,
+.form-select.valid{
+    border-color:#198754;
+}
 
 
 

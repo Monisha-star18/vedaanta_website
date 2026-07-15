@@ -127,5 +127,84 @@ $(document).ready(function(){
         });
 
     });
+
+
+
+    $(document).ready(function () {
+
+        $("#Form").validate({
+
+            errorClass: "text-danger",
+
+            rules: {
+
+                name: {
+                    required: true,
+                    pattern: /^[A-Za-z ]{3,50}$/
+                },
+
+                phone: {
+                    required: true,
+                    pattern: /^[6-9]\d{9}$/
+                },
+
+                email: {
+                    required: true,
+                    email: true
+                },
+
+                interest: {
+                    required: true
+                },
+
+                message: {
+                    maxlength: 300
+                },
+
+                terms: {
+                    required: true
+                }
+
+            },
+
+            messages: {
+
+                name: {
+                    required: "Please enter your full name",
+                    pattern: "Only alphabets and spaces are allowed"
+                },
+
+                phone: {
+                    required: "Please enter your phone number",
+                    pattern: "Enter a valid 10-digit mobile number"
+                },
+
+                email: {
+                    required: "Please enter your email",
+                    email: "Please enter a valid email address"
+                },
+
+                interest: {
+                    required: "Please select a location"
+                },
+
+                message: {
+                    maxlength: "Maximum 300 characters allowed"
+                },
+
+                terms: {
+                    required: "Please accept the terms and conditions"
+                }
+
+            },
+
+            submitHandler: function (form) {
+                alert("Form submitted successfully!");
+                form.submit();
+            }
+
+        });
+
+});
     
 })
