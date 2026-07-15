@@ -149,6 +149,17 @@ background-color: #CAD5BF;
 }
 
 
+.accordion-button.collapsed 
+{
+    background-color:#FBEBD2 !important;
+
+}
+
+.accordion-button:not(.collapsed)
+{
+    background-color: #FCBA64 !important;
+
+}
 
 
 
