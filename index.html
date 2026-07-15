@@ -20,6 +20,12 @@
     <!-- Slick Theme CSS (Optional) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
 
+    <!-- for font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
@@ -93,12 +99,12 @@
         <div class="d-lg-flex align-items-center ">
             
             <!-- nav left -->
-            <img src="./asserts/images/svg/vedaanta-new-logo.svg" alt="Vedaanta Senior Living Logo" class="py-2 px-2 pe-4" style="width: 200px;">
+            <img src="./asserts/images/svg/vedaanta-new-logo.svg" alt="Vedaanta Senior Living Logo" class="py-2 px-2 pe-4 logo" style="width: 200px;">
             
             <!-- nav right -->
             <div class="offset-1">
                 <!-- nav bar -->
-                <nav class = " navbar navbar-expand-md  navbar-expand-lg">
+                <nav class = " navbar  navbar-expand-lg">
 
                     <!-- hunbergur button -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -174,7 +180,7 @@
     <!-- main tag line  -->
     <div class="container py-4 my-4  main-tag-container ">
         <div class="row justify-content-center">
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-7">
                 <p class="gradient-text ">
                     At Vedaanta's senior citizen homes in Coimbatore,
                     enjoy a lively and welcoming community. Make new 
@@ -189,8 +195,8 @@
     <div class="container pb-4 mb-4 main-content-container">
 
         <div class="row justify-content-center">
-            <div class="col-12 col-lg-6">
-                <h2 class="mb-5">Why should you retire in <b>Coimbatore?</b></h2>
+            <div class="col-12 col-lg-7">
+                <h2 class="mb-5 main-title text-center">Why should you retire in <b>Coimbatore?</b></h2>
                 <h3 class="main-content-text">
                     Coimbatore is one of the best places to retire as it has pleasant weather year round, 
                     excellent healthcare facilities and a balanced mix of traditional and modern culture.
@@ -221,7 +227,7 @@
                 <!-- home top content -->
                 <div home-carosel-content">
                     <h3 class="mb-5 homes-titel text-center">Our Senior Citizen Homes in <b>Coimbatore</b></h3>
-                    <p class="sub-title text-start">
+                    <p class="sub-title text-start" id="p-text">
                         We have four luxury retirement homes in Coimbatore and all of them are located in prime locations.
                         Our<b class="text-primary"> Vedaanta Vistara</b> retirement micro-community, that is especially curated for individuals seeking a peaceful 
                         and secure haven and is located in Kinathukadavu. 
@@ -245,11 +251,10 @@
                         <div class="card-body">
                             <h5 class="card-title mb-2"> Vedaanta Brindhavanam </h5>
                             <h5 class="card-subtitle mb-3"> Kinathukidavu, Coimbatore</h5>
-                            <p class="card-text">
+                            <p class="card-text" id="p-text">
                                 Brindhavanam retirement community is located in Kinathukadavu with spacious villas and 
                                 lots of greenery for peaceful living. The residents enjoy an engaging community at Brindhavanam.
                             </p>
-                            <button class="text-light  border-0 rounded card-btn">EXPLORE VEDAANTA BRINDHAVANAM</button>
                         </div>
                     </div>
 
@@ -260,13 +265,15 @@
                         
                         <!-- CARD BODY -->
                         <div class="card-body">
-                            <h5 class="card-title mb-2"> Vedaanta Brindhavanam </h5>
-                            <h5 class="card-subtitle mb-3"> Kinathukidavu, Coimbatore</h5>
-                            <p class="card-text">
-                                Brindhavanam retirement community is located in Kinathukadavu with spacious villas and 
-                                lots of greenery for peaceful living. The residents enjoy an engaging community at Brindhavanam.
+                            <h5 class="card-title mb-2"> Vedaanta Meru</h5>
+                            <h5 class="card-subtitle mb-3"> Kovaipudur, Coimbatore</h5>
+                            <p class="card-text" id="p-text">
+                                Vedaanta Meru is an exclusive senior living community nestled in the serene embrace of the Western Ghats, 
+                                curated for comfort, care, and class.
                             </p>
-                            <button class="text-light  border-0 rounded card-btn">EXPLORE VEDAANTA BRINDHAVANAM</button>
+                            <div class="d-flex justify-content-center">
+                                <button class="text-light  border-0 rounded card-btn">EXPLORE VEDAANTA MERU</button>
+                            </div>
                         </div>
                     </div>
 
@@ -277,13 +284,16 @@
                         
                         <!-- CARD BODY -->
                         <div class="card-body">
-                            <h5 class="card-title mb-2"> Vedaanta Brindhavanam </h5>
-                            <h5 class="card-subtitle mb-3"> Kinathukidavu, Coimbatore</h5>
-                            <p class="card-text">
-                                Brindhavanam retirement community is located in Kinathukadavu with spacious villas and 
-                                lots of greenery for peaceful living. The residents enjoy an engaging community at Brindhavanam.
+                            <h5 class="card-title mb-2"> Vedaanta Satsang </h5>
+                            <h5 class="card-subtitle mb-3"> Kovaipudur, Coimbatore</h5>
+                            <p class="card-text" id="p-text">
+                                Satsang is located very close to the lake in Kovaipudur offering a scenic location for its residents.
+                                 The villas have modern amenities and senior friendly services.
                             </p>
-                            <button class="text-light  border-0 rounded card-btn">EXPLORE VEDAANTA BRINDHAVANAM</button>
+                            <div class="d-flex justify-content-center">
+                                <button class="text-light  border-0 rounded card-btn">EXPLORE VEDAANTA SATSANG</button>
+                            </div>
+                            
                         </div>
                     </div>
 
@@ -295,13 +305,36 @@
                         
                         <!-- CARD BODY -->
                         <div class="card-body">
-                            <h5 class="card-title mb-2"> Vedaanta Brindhavanam </h5>
-                            <h5 class="card-subtitle mb-3"> Kinathukidavu, Coimbatore</h5>
-                            <p class="card-text">
-                                Brindhavanam retirement community is located in Kinathukadavu with spacious villas and 
-                                lots of greenery for peaceful living. The residents enjoy an engaging community at Brindhavanam.
+                            <h5 class="card-title mb-2"> Vedaanta Vistara </h5>
+                            <h5 class="card-subtitle mb-3"> Kinathukadavu, Coimbatore</h5>
+                            <p class="card-text" id="p-text">
+                                Vistara is a retirement micro-community that is especially curated for individuals 
+                                seeking a peaceful and secure haven and is located in Kinathukadavu.
                             </p>
-                            <button class="text-light  border-0 rounded card-btn">EXPLORE VEDAANTA BRINDHAVANAM</button>
+                            <div class="d-flex justify-content-center">
+                                <button class="text-light  border-0 rounded card-btn">EXPLORE VEDAANTA VISTARA</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- house 5 -->
+                    <div class="card h-100  border home-card p-0 me-2 mb-2">
+                        <!-- image -->
+                        <img src="./asserts/images/house_carosel/vedaanta-premam.jpg" class="card-img-top rounded" alt="vedaanta-premam">
+                        
+                        <!-- CARD BODY -->
+                        <div class="card-body">
+                            <h5 class="card-title mb-2"> Vedaanta Premam </h5>
+                            <h5 class="card-subtitle mb-3"> Ottakkalmandapam, Coimbatore</h5>
+                            <p class="card-text" id="p-text">
+                                Vedaanta Premam integrated retirement township, which is India's First Integrated retirement community, 
+                                is located in Madukkarai.
+                            </p>
+                            <div class="d-flex justify-content-center">
+                                <button class="text-light  border-0 rounded card-btn ">EXPLORE VEDAANTA PREMAM </button>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -311,11 +344,11 @@
 
     <!-- Benefits  -->
     <div class="container-fluid  p-3 my-4 benefits-container">
-        <div class="container ">
+        <div class="container p-3 ">
             <div class="row">
                 <div class="col-10 offset-1">
-                    <h5 class="benefits-titel text-center mb-4">Benefits of Vedaanta <b>retirement homes</b></h5>
-                    <p>
+                    <h4 class="benefits-titel text-center mb-4 mt-5">Benefits of Vedaanta <b>retirement homes</b></h4>
+                    <p id="p-text">
                         At our senior citizen homes in Coimbatore, we want your retirement to be 
                         relaxing and enjoyable, both for you and your family. We always make sure everything 
                         we offer, like activities, meals, and our amenities, is something 
@@ -331,29 +364,29 @@
                         </div>
 
                         <div class="col-12 col-md-6 ms-2 mt-4">
-                            <p class="mb-4">Here are benefits that make Vedaanta Special:</p>
+                            <p class="mb-4" id="p-text">Here are benefits that make Vedaanta Special:</p>
 
-                            <h6 class="mb-2">Transparency</h6>
-                            <p class="mb-4">
+                            <h3 class="mb-2 benefit-titel" >Transparency</h3>
+                            <p class="mb-4" id="p-text">
                                 At Vedaanta, open communication is our priority. 
                             Our team keeps you informed and consults with you on all important matters, 
                             providing clear details about services, meals, costs, and medical care upfront.
                             </p>
 
-                            <h6 class="mb-2" >Feel Like Home</h6>
-                            <p class="mb-4">
+                            <h3 class="mb-2 benefit-titel" >Feel Like Home</h3>
+                            <p class="mb-4" id="p-text">
                                 Our retirement homes are warm and welcoming, with experienced staff always
                              available to meet your needs and provide exceptional care.
                             </p>
                             
-                            <h6 class="mb-2">No Restrictions</h6>
-                            <p class="mb-4">
+                            <h3 class="mb-2 benefit-titel">No Restrictions</h3>
+                            <p class="mb-4" id="p-text">
                                 At Vedaanta's senior homes in Coimbatore, enjoy the freedom to live your
                              retirement on your terms, choosing your daily activities and schedule.
                             </p>
                             
-                            <h6 class="mb-2">Experienced Team</h6>
-                            <p class="mb-4">
+                            <h3 class="mb-2 benefit-titel">Experienced Team</h3>
+                            <p class="mb-4" id="p-text">
                                 Our experienced staff is trained to prioritize your comfort, ensuring a 
                                 stress-free and comfortable retirement.
                             </p>
@@ -366,11 +399,11 @@
     </div>
 
     <!-- features -->
-        <div class="container p-3 my-5 features-container">
+        <div class="container  my-5 features-container">
             <div class="row">
                 <div class="col-10 offset-1">
-                    <h5 class="features-titel text-center mb-4">Features of Vedaanta  <b>retirement homes</b></h5>
-                    <p>
+                    <h5 class="features-titel text-center mb-4 mt-4">Features of Vedaanta  <b>retirement homes</b></h5>
+                    <p id="p-text">
                         At our Coimbatore senior living, we understand the importance of living a 
                         comfortable and secure life as you age. Our communities and the facilities are carefully 
                         designed to address all the challenges that are faced by senior citizens on a daily basis.
@@ -392,7 +425,7 @@
                                 <!-- right side  CARD BODY -->
                                 <div class="card-body">
                                     <h5 class="card-title mb-2"> Community Events </h5>
-                                    <p class="card-text">
+                                    <p class="card-text" id="p-text">
                                             We regularly organize engaging activities to keep our residents connected. 
                                             These include debates, quizzes, meditation classes, cultural events, craft workshops, and more.
                                     </p>
@@ -409,7 +442,7 @@
                                 <!-- right side  CARD BODY -->
                                 <div class="card-body">
                                     <h5 class="card-title mb-2"> Housekeeping & Maintenance </h5>
-                                    <p class="card-text">
+                                    <p class="card-text" id="p-text">
                                             We take care of all your daily chores including housekeeping services, regular cleaning, laundry, 
                                             electrical and plumbing services, and more.
                                     </p>
@@ -426,7 +459,7 @@
                                 <!-- right side  CARD BODY -->
                                 <div class="card-body">
                                     <h5 class="card-title mb-2"> Paramedical Care </h5>
-                                    <p class="card-text">
+                                    <p class="card-text" id="p-text">
                                            We offer 24/7 healthcare services, including regular checkups from doctors and registered nurses. 
                                            Additionally, physiotherapists also regularly visit the community.
                                     </p>
@@ -443,7 +476,7 @@
                                 <!-- right side  CARD BODY -->
                                 <div class="card-body">
                                     <h5 class="card-title mb-2"> Nutritious Daily Dining </h5>
-                                    <p class="card-text">
+                                    <p class="card-text" id="p-text">
                                           We prepare tasty and nutritious vegetarian meals daily. 
                                           We consider your preferences when planning menus and offer special meals for those with heart conditions or diabetes.
                                     </p>
@@ -471,8 +504,8 @@
                     </iframe>
                 </div>
                 <div class="col-12 col-md-6 py-5">
-                    <h5 class="text-center mb-3"> About Vedaanta</h5>
-                    <p class="ps-3">
+                    <h3 class="text-center mb-3 about-titel"> About Vedaanta</h3>
+                    <p class="ps-3" id="p-text">
                         Vedaanta Senior Living is India's fastest growing retirement community. 
                         We started in 2015 to offer comfortable and affordable senior care homes. 
                         In just ten years, we've become a leader in senior care thanks to our dedicated and hard-working team. 
@@ -501,7 +534,7 @@
                     <div class="card border-0">
                         <div class="card-body">
                             <h5 class="card-title">Mr. Mohan <span class="text-resident">(Resident)</span></h5>
-                            <p>
+                            <p id="p-text">
                                 I don't have to worry about cleaning anymore. 
                                 The staff at Vedaanta's retirement villas in coimbatore takes care of everything.
                                 They are always there to help me with anything I need. 
@@ -514,7 +547,7 @@
                     <div class="card border-0">
                         <div class="card-body">
                             <h5 class="card-title">Mrs. Shanti <span class="text-resident">(Resident)</span></h5>
-                            <p>
+                            <p id="p-text">
                                 The people here at Vedaanta are like family to me. 
                                 The staff is friendly and caring,
                                 and the other residents are always there to 
@@ -528,7 +561,7 @@
                     <div class="card border-0">
                         <div class="card-body">
                             <h5 class="card-title">Mrs. Meenakshi <span class="text-resident">(Resident)</span></h5>
-                            <p>
+                            <p id="p-text">
                                 I wasn't sure about moving to a new place, 
                                 but Vedaanta has been wonderful! I've made
                                 so many new friends here. The staff are kind and 
@@ -543,7 +576,7 @@
                     <div class="card border-0">
                         <div class="card-body">
                             <h5 class="card-title">Mr. Ramesh <span class="text-resident">(Resident)</span></h5>
-                            <p>
+                            <p id="p-text">
                                 The food at Vedaanta's senior 
                                 citizen homes is delicious and 
                                 healthy, just what I need at my age. 
@@ -574,7 +607,7 @@
                     </iframe>
                 </div>
                 <div class="col-12 col-md-6 py-5">
-                    <p class="ps-3">
+                    <p class="ps-3" id="p-text">
                         "There is a gym with quite a few equipments, which is used by residents free of charge. 
                         There is a beautiful open air amphitheater where we have all sorts of events several times in a year. 
                         We have programs put together by residents themselves and also guest artists who come for a performance. 
@@ -582,7 +615,7 @@
                         choice moving here. Everything is taken care of - location-wise, health-wise, hobbies, and even if 
                         you want to keep working professionally."
                         <br><br>
-                        Mrs. Gowri | Resident
+                        <b>Mrs. Gowri </b>| Resident
                     </p>
 
                 </div>
@@ -596,16 +629,17 @@
     <div class="container p-3 accordiant-container">
         <div class="row">
             <div class="col-10 offset-1">
-                     <h5 class="accordian-title text-center mb-5">What our Residents are Saying</h5>
+                     <h5 class="accordian-title text-center mb-5">Frequently Asked Questions</h5>
+                    <!-- accordia -->
                     <div class="accordion w-100 m-2" id="accordionExample">
                         <!-- question1  -->
-                        <div class="accordion-item m-2">
+                        <div class="accordion-item my-2">
                             <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
                                 01. Which is the best place for senior citizens to live in Coimbatore?
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     Vedaanta's senior citizen homes in Coimbatore are the perfect place to live life to the fullest in your retirement years. 
                                     We have 4 beautiful communities in Coimbatore and all of them are designed keeping your comfort, health and happiness in mind. 
@@ -617,7 +651,7 @@
                         </div>
 
                         <!-- question 2  -->
-                        <div class="accordion-item m-2">
+                        <div class="accordion-item my-2">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
                                 02. How much does a retirement home cost in Coimbatore?
@@ -635,7 +669,7 @@
                         </div>
 
                         <!-- question 3  -->
-                        <div class="accordion-item m-2">
+                        <div class="accordion-item my-2">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
                                 03. Why is Coimbatore the best city to live in after retirement?
@@ -652,7 +686,7 @@
                         </div>
 
                         <!-- question 4  -->
-                        <div class="accordion-item ">
+                        <div class="accordion-item my-2">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
                                 04. What measures are in place for emergencies?
@@ -674,14 +708,14 @@
     
     
     <!-- Contact Form -->
-    <div class="container-fluid  py-5">
+    <div class="container-fluid  pt-5">
         <div class="container">
             <div class="row">
                 <div class="col-10 offset-1 ">
 
-                    <h3 class="text-center mb-4 contact-titlte"> Interested in our senior citizen homes in <b>Coimbatore</b>?</h3>
+                    <h3 class="text-center mb-5 contact-titlte"> Interested in our senior citizen homes in <b>Coimbatore</b>?</h3>
 
-                    <div class="row justify-content-center form-container py-3">
+                    <div class="row justify-content-center form-container pt-4">
 
                         <div class="col-lg-7 bg-white p-0 border">
 
@@ -780,19 +814,20 @@
 
     <!-- footer -->
     <footer class="bg-dark">
-        <div class="container py-5">
-            <div class="row ">
+        <div class="container pt-5">
+            <div class="row justify-content-center">
+                
 
                 <!-- col-1 contact info -->
-                <div class="col-12 col-lg-3 text-light">
-                    <img src="./asserts/images/svg/vedaanta-new-logo.svg" alt="logo" style=" width: 180px;" class="py-3 m-0">
+                <div class="col-12 col-lg-3  text-light mb-5">
+                    <img src="./asserts/images/svg/vedaanta-new-logo.svg" alt="logo" style=" width: 180px;" class="pb-4 m-0">
                     <p>
                         Retirement Communities<br>
                         and Senior Living Care
                     </p>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-decoration-none list-item">+91 844 844 4714</a></li>
-                        <li><a href="#" class="text-decoration-none list-item">info@vedaanta.com</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">+91 844 844 4714</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">info@vedaanta.com</a></li>
                     </ul>
                     <div class="d-flex flex-row gap-4">
                         <i class="fa-brands fa-instagram"></i>
@@ -803,38 +838,38 @@
                 </div>
 
                 <!-- col-2 Quick Links -->
-                <div class="col-12 col-lg-3  text-light">
-                    <h5>Quick Links</h5>
+                <div class="col-12 col-lg-3  text-light mb-5">
+                    <h5 class="link-title">Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-decoration-none list-item">Home</a></li>
-                        <li><a href="#" class="text-decoration-none list-item">About Us</a></li>
-                        <li><a href="#" class="text-decoration-none list-item">Services at Vedaanta</a></li>
-                        <li><a href="#" class="text-decoration-none list-item">Technology at Vedaanta</a></li>
-                        <li><a href="#" class="text-decoration-none list-item">Vedaanta Vantage</a></li>
-                        <li><a href="#" class="text-decoration-none list-item">Career &amp; Partnerships</a></li>
-                        <li><a href="#" class="text-decoration-none list-item">Contact Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">Home</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">About Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">Services at Vedaanta</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">Technology at Vedaanta</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">Vedaanta Vantage</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">Career &amp; Partnerships</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">Contact Us</a></li>
                     </ul>
                 </div>
 
                 <!-- col-3 Our Locations -->
-                <div class="col-12 col-lg-3  text-light">
-                    <h5>Our Locations</h5>
+                <div class="col-12 col-lg-3  text-light mb-5">
+                    <h5 class="link-title">Our Locations</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-decoration-none list-item">Senior Citizen Homes in Coimbatore</a></li>
-                        <li><a href="#" class="text-decoration-none list-item">Retirement Homes in Bangalore</a></li>
-                        <li><a href="#" class="text-decoration-none list-item">Retirement Homes in Hosur</a></li>
-                        <li><a href="#" class="text-decoration-none list-item">Retirement Homes in Kerala</a></li>
-                        <li><a href="#" class="text-decoration-none list-item">Retirement Homes in Chennai</a></li>
-                        <li><a href="#" class="text-decoration-none list-item">Upcoming...</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">Senior Citizen Homes in Coimbatore</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">Retirement Homes in Bangalore</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">Retirement Homes in Hosur</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">Retirement Homes in Kerala</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">Retirement Homes in Chennai</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">Upcoming...</a></li>
                     </ul>
                 </div>
 
                 <!-- col-4 Vedaanta Insights -->
-                <div class="col-12 col-lg-3  text-light">
-                    <h5>Vedaanta Insights</h5>
+                <div class="col-12 col-lg-3  text-light mb-3">
+                    <h5 class="link-title">Vedaanta Insights</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-decoration-none list-item">Download Corporate Brochure</a></li>
-                        <li><a href="#" class="text-decoration-none list-item">Read our latest Newsletter</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">Download Corporate Brochure</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none list-item">Read our latest Newsletter</a></li>
                     </ul>
                 </div>
 
@@ -845,7 +880,7 @@
 
     <!-- ending footer -->
     <div class="container-fluid pt-2 ending-footer">
-        <div class="container d-flex justify-content-md-between flex-wrap ending-footer-content">
+        <div class="container d-flex flex-column flex-md-row justify-content-center justify-content-md-between  ending-footer-content">
             <p>Copyright © VEDAANTA SENIOR LIVING PVT. LTD.</p>
             <p class="text-center">Website by KICKASS DESIGN</p>
         </div>

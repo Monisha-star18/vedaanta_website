@@ -19,13 +19,14 @@ font-weight: bold;
 {
 color:#404040;
 font-size: 14px;
+cursor: pointer;
 
 }
 
 .contact-si
 {
         width: 26px;
-
+    cursor: pointer;
 }
 
 .nav-item
@@ -107,12 +108,31 @@ color : #DC4A26
 }
 
 
-.homes-titel ,.benefits-titel,.features-titel,.residents-say-title,.contact-titlte,.accordian-title
+.homes-titel ,.benefits-titel,.features-titel,.residents-say-title,.contact-titlte,.accordian-title,.main-title,.about-titel
 {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 400;
 }
 
+
+#p-text
+{
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #505050;
+    line-height:24px;
+}
+
+.card-title
+{
+    font-family:'Open Sans', sans-serif;
+}
+.benefit-titel
+{
+    font-size: 24px;
+    font-weight: 400;
+}
 .sub-title
 {
     color: #505050;
@@ -125,6 +145,7 @@ color : #DC4A26
 {
     font-size: 15px;
     background-color: #7EA170;
+    text-transform: capitalize;
 }
 
 .slick-prev:before, 
@@ -226,6 +247,30 @@ background-color: #CAD5BF;
 .form-check-label{
     font-size:14px;
 }
+
+
+.logo , .navItems li
+{
+     cursor: pointer;
+}
+
+
+
+.link-title
+{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width:768px){
 
